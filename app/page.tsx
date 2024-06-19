@@ -25,7 +25,7 @@ export default function Home() {
         <Link href="https://app.uniswap.org/swap"><button className="text-lg lg:text-xl animate-rock bg-[#FDDC01] text-[#211720] border border-[#ffeb65] hover:bg-gray-400 font-bold py-3 px-6 lg:py-4 lg:px-8 rounded-lg shadow-lg my-12 lg:my-16">
           BUY NOW
         </button></Link>
-        {/* Why this does not break into new line on small screen??? */}
+        {/* Why this does not break into new line on small screen */}
         <div className={cn(concert.className, "")}>
           <h3 className="overflow-wrap-anywhere text-3xl lg:text-4xl">CA: 0x6f1ec26c8CE8138bAa314C39Fb2BA1c890d07944</h3>
         </div>
