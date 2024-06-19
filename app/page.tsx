@@ -27,7 +27,7 @@ export default function Home() {
         </button></Link>
         {/* Why this does not break into new line on small screen??? */}
         <div className={cn(concert.className, "")}>
-          <h3 className="overflow-wrap-anywhere text-3xl lg:text-4xl">CA: TO BE ANNOUNCED</h3>
+          <h3 className="overflow-wrap-anywhere text-3xl lg:text-4xl">CA: 0x6f1ec26c8CE8138bAa314C39Fb2BA1c890d07944</h3>
         </div>
         <h1 className="text-4xl mt-24 tracking-tight lg:mt-32 lg:text-6xl">HOW TO BUY</h1>
         <h2 className={cn(concert.className, "text-3xl pt-4 tracking-tighter lg:text-4xl")}>Follow these steps to buy $SNIB and join our hodlers! <span className="underline text-gray-400">NOT A FINANCIAL ADVICE :| </span> </h2>
