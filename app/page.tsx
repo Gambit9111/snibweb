@@ -17,7 +17,7 @@ export default function Home() {
           <h2 className="text-4xl lg:text-5xl">1,000,000,000 Supply</h2>
           <h2 className="text-4xl lg:text-5xl">Own $SNIB Stay Wealthy</h2>
         </div>
-        <Link href="https://raydium.io/swap/"><Image src={Logo} alt="logo" className="w-80 h-80 lg:w-[720px] lg:h-[720px] rounded-full border-2 border-[#FDDC01] hover:border-gray-400 my-16 lg:my-24" /></Link>
+        <Link href="https://app.uniswap.org/swap"><Image src={Logo} alt="logo" className="w-80 h-80 lg:w-[720px] lg:h-[720px] rounded-full border-2 border-[#FDDC01] hover:border-gray-400 my-16 lg:my-24" /></Link>
         <div className={cn(concert.className, "text-3xl flex gap-12 lg:text-4xl lg:gap-16")}>
           <Link href="https://www.dextools.io" className="underline hover:text-gray-400">DexTool</Link>
           <Link href="https://dexscreener.com/" className="underline hover:text-gray-400">DexScreener</Link>
