@@ -17,12 +17,12 @@ export default function Home() {
           <h2 className="text-4xl lg:text-5xl">1,000,000,000 Supply</h2>
           <h2 className="text-4xl lg:text-5xl">Own $SNIB Stay Wealthy</h2>
         </div>
-        <Link href="https://app.uniswap.org/swap"><Image src={Logo} alt="logo" className="w-80 h-80 lg:w-[720px] lg:h-[720px] rounded-full border-2 border-[#FDDC01] hover:border-gray-400 my-16 lg:my-24" /></Link>
+        <Link href="https://app.uniswap.org/swap?outputCurrency=0x6f1ec26c8CE8138bAa314C39Fb2BA1c890d07944&chain=ethereum"><Image src={Logo} alt="logo" className="w-80 h-80 lg:w-[720px] lg:h-[720px] rounded-full border-2 border-[#FDDC01] hover:border-gray-400 my-16 lg:my-24" /></Link>
         <div className={cn(concert.className, "text-3xl flex gap-12 lg:text-4xl lg:gap-16")}>
-          <Link href="https://www.dextools.io" className="underline hover:text-gray-400">DexTool</Link>
-          <Link href="https://dexscreener.com/" className="underline hover:text-gray-400">DexScreener</Link>
+          <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0x640ff9147c59c34af3da1de3ae9d3d0d64d5a559?t=1718823438396" className="underline hover:text-gray-400">DexTool</Link>
+          <Link href="https://dexscreener.com/ethereum/0x6f1ec26c8CE8138bAa314C39Fb2BA1c890d07944" className="underline hover:text-gray-400">DexScreener</Link>
         </div>
-        <Link href="https://app.uniswap.org/swap"><button className="text-lg lg:text-xl animate-rock bg-[#FDDC01] text-[#211720] border border-[#ffeb65] hover:bg-gray-400 font-bold py-3 px-6 lg:py-4 lg:px-8 rounded-lg shadow-lg my-12 lg:my-16">
+        <Link href="https://app.uniswap.org/swap?outputCurrency=0x6f1ec26c8CE8138bAa314C39Fb2BA1c890d07944&chain=ethereum"><button className="text-lg lg:text-xl animate-rock bg-[#FDDC01] text-[#211720] border border-[#ffeb65] hover:bg-gray-400 font-bold py-3 px-6 lg:py-4 lg:px-8 rounded-lg shadow-lg my-12 lg:my-16">
           BUY NOW
         </button></Link>
         {/* Why this does not break into new line on small screen */}
